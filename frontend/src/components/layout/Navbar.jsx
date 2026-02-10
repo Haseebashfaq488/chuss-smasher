@@ -31,7 +31,7 @@ function Navbar() {
         <Box component="img" src={logo} alt="logo" sx={{ height: 40 }} />
 
         <Box sx={{ display: { xs: 'none', md: 'flex' }, alignItems: 'center', gap: 4 }}>
-          {['Home', 'About', 'Shop', 'Contact'].map((text, index) => (
+          {['Home', 'About', 'Shop', 'ContactUs'].map((text, index) => (
             <Button
               key={index}
               component={RouterLink}
@@ -117,7 +117,7 @@ function Navbar() {
               <ListItem button component={RouterLink} to="/shop" onClick={() => setDrawerOpen(false)}>
                 <ListItemText primary="Shop" sx={{ color: 'white' }} />
               </ListItem>
-              <ListItem button component={RouterLink} to="/contact" onClick={() => setDrawerOpen(false)}>
+              <ListItem button component={RouterLink} to="/contactus" onClick={() => setDrawerOpen(false)}>
                 <ListItemText primary="Contact Us" sx={{ color: 'white' }} />
               </ListItem>
             </List>

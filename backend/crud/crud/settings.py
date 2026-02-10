@@ -41,6 +41,10 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 
 INSTALLED_APPS = [
+<<<<<<< HEAD
+=======
+    'grappelli',
+>>>>>>> 91a85ad487f6df392a530274468c79283bebb085
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

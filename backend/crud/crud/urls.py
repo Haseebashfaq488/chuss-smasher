@@ -21,6 +21,10 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
+=======
+    path('grappelli/', include('grappelli.urls')),  # grappelli URLS
+>>>>>>> 91a85ad487f6df392a530274468c79283bebb085
     path('api/', include('shop.urls')),  # API URLs
 ]
 

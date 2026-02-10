@@ -11,7 +11,10 @@ import Register from './pages/register'
 import Cart from './pages/cart'
 import Home from './pages/home'
 import Footer from './components/layout/Footer'
+<<<<<<< HEAD
 import ContactUs from './pages/contactus'
+=======
+>>>>>>> 91a85ad487f6df392a530274468c79283bebb085
 
 const theme = createTheme({
   palette: {
@@ -88,7 +91,10 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path="/cart" element={<Cart />} />
+<<<<<<< HEAD
             <Route path="/contactus" element = {<ContactUs/>} />
+=======
+>>>>>>> 91a85ad487f6df392a530274468c79283bebb085
           </Routes>
          
         </Box>
